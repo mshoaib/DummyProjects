@@ -1,0 +1,75 @@
+body
+{
+margin: 0px;
+background-color: rgb(229, 230, 235);
+}
+.maindiv
+{
+width: 600px;
+height: 350px;
+margin-left: auto;
+margin-right: auto;
+margin-top:120px;
+border-width: 2px;
+border-style: groove;
+border-radius: 25px;
+background-color: rgba(255, 255, 255, 0.705);
+box-shadow: 3px 3px 5px 10px rgb(184, 184, 184);
+transition: 5s;
+}
+.header-div
+{
+padding-top:10px;
+padding-left:10px;
+border-bottom:3px solid rgba(0, 0, 0, 0.74);
+
+box-shadow : 0px 4px 0px 0px gray;
+
+}
+.logo-text
+{
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 3px 5px 2px  gray;
+    
+}
+
+.login-form img 
+{
+width: 120px;
+height: 120px;
+opacity: 0.8;
+position: relative;
+padding-top:10px;
+padding-left: 240px;
+
+}
+.login-text
+{
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left:180px;
+  
+
+}
+.login-text input
+{
+    height: 30px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+       
+}
+
+.login-text input[type="submit"]
+{
+background-color: rgb(63, 61, 61);
+color:white;
+width: 80px;
+margin-left: 170px;
+border-radius: 10px;
+}
